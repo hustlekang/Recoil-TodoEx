@@ -19,13 +19,13 @@ export default function TodoListStats() {
             <td>전체</td>
             <td>끝낸일</td>
             <td>남은일</td>
-            <td>%</td>
+            <td>진행률</td>
           </tr>
           <tr>
             <td>{totalNum}</td>
             <td >{completedNum}</td>
             <td >{unCompletedNum}</td>
-            <td>{formattedPercentCompleted}</td>
+            <td>{formattedPercentCompleted}%</td>
           </tr>
           </tbody>
         </table>    
